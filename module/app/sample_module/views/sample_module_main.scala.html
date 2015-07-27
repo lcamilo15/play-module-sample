@@ -5,7 +5,10 @@
 <html lang="en">
     <head>
         <title>@title</title>
-     </head>
+        <link rel="stylesheet" media="screen" href="@sample_module.controllers.routes.Assets.versioned("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@sample_module.controllers.routes.Assets.versioned("images/favicon.png")">
+        <script src="@sample_module.controllers.routes.Assets.versioned("javascripts/hello.js")" type="text/javascript"></script>
+    </head>
     <body>
         @content
     </body>
